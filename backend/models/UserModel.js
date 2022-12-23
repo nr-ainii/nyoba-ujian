@@ -1,7 +1,7 @@
 // file ini berisi struktur data tabel di databasenya
 
 import { Sequelize } from "sequelize";
-import db from "../config/Database";
+import db from "../config/Database.js";
 
 const {DataTypes} = Sequelize;
 
